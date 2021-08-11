@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind Css Demo</title>
+</head>
+<body>
+    <div class="container-md mx-auto font-sans">
+        <!-- Header -->
+        <div class="w-full flex fixed h-11 bg-black opacity-90 items-center justify-between md:justify-center shadow-sm">
+            <img class="w-5 h-5 mx-4 hidden md:block" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/22_Apple_logo_logos-128.png" alt="logo">
+            <img class="w-5 h-5 mx-4 block md:hidden" src="https://cdn4.iconfinder.com/data/icons/computer-and-web-2/500/Menu-128.png" alt="">
+            <ul class="list-none hidden md:flex justify-around items-center w-9/12">
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://www.apple.com/us/shop/goto/store">Store</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease"  href="https://www.apple.com/mac/">Mac</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://www.apple.com/ipad/">iPad</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://www.apple.com/iphone/">iPhone</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://www.apple.com/watch/">Watch</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://www.apple.com/tv/">TV</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://www.apple.com/music/">Music</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://support.apple.com/">Support</a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white transition duration-500 ease" href="https://www.apple.com/us/search">
+                    <img class="w-5 h-5" src="https://image.flaticon.com/icons/png/512/527/527484.png" alt="">
+                </a></li>
+                <li><a class="text-gray-400 text-sm hover:text-white" href="https://www.apple.com/us/shop/goto/bag">
+                    <img class="w-5 h-5" src="https://image.flaticon.com/icons/png/512/4296/4296612.png" alt="">
+                </a></li>
+            </ul>
+        </div>
+        <!-- sub header -->
+        <!-- <div class="w-full h-12 flex items-center justify-around border-b-2 border-opacity-25 border-gray-500">
+            <a class="text-black text-lg font-semibold" href="#">iPhone 12</a>
+            <ul class="flex items-center justify-around w-2/12">
+                <li class="text-gray-500 cursor-default mt-1 text-xs">Overview</li>
+                <li><a href="#" class="text-black text-xs">Tach Specs</a></li>
+                <li><a href="#" class="text-black text-xs transition duration-500 border-0 border-solid bg-blue-600 hover:bg-blue-500 p-1 px-3 text-white rounded-xl">Buy</a></li>
+            </ul>
+        </div> -->
+        <!-- home -->
+        <div class="pt-10 bg-white w-full flex flex-col justify-center items-center">
+            <div class="w-full py-4 flex flex-col md:flex-row items-center justify-center">
+                <p class="text-black w-2/3 md:w-auto text-center py-2 text-xs">Save on the newest iPhone with the latest carrier deals. Directly from Apple.</p>
+                <a href="#" class="text-xs text-blue-700 hover:text-blue-600 hover:underline ml-2">Find your offer > </a>
+            </div>
+
+            <h3 class="font-semibold antialiased text-black opacity-90 text-4xl md:text-5xl mt-5 pt-5">iPhone 12</h3>
+            <h4 class=" text-xl md:text-3xl py-4">Blast past fast</h4>
+            <span class="text-gray-500 text-sm md:text-normal pt-1">From $29.12/mo. for 24 mo. or $699 before trade-in</span>
+            <span class="text-gray-500 text-sm md:text-normal pt-1">Buy directly from Apple with special carrier offers</span>
+
+            <div class="flex w-1/2 md:w-2/12 py-4 text-md md:text-xl text-blue-700 justify-around">
+                <a href="https://www.apple.com/iphone-12/" class="hover:text-blue:600 hover:underline">Learn more > </a>
+                <a href="https://www.apple.com/us/shop/goto/buy_iphone/iphone_12" class="hover:text-blue:600 hover:underline">Buy ></a>
+            </div>
+            <img class="object-cover w-full h-full hidden md:block md:w-7/12 mx-auto" src="images/home.png" alt="">
+            <img class="object-cover w-10/12 h-4/5 block md:hidden md:w-7/12 mx-auto" src="images/mobile.png" alt="">
+        </div>
+        <!-- ********** -->
+        <div class="bg-black mt-4 w-full h-4/5 flex flex-col justify-center items-center">
+            <h3 class="font-semibold antialiased text-white opacity-90 text-4xl md:text-6xl mt-5 pt-5">iPhone 12 Pro</h3>
+            <h4 class="text-xl md:text-2xl py-4 text-white">It's a leap year</h4>
+            <span class="text-sm md:text-normal text-gray-500 pt-1">From $41.62/mo. for 24 mo. or $999 before trade-in</span>
+            <span class="text-sm md:text-normal text-gray-500 pt-1">Buy directly from Apple with special carrier offers</span>
+            <div class="flex w-1/2 py-2 text-md md:text-xl text-blue-500 justify-center">
+                <a href="https://www.apple.com/iphone-12-pro/" class="hover:text-blue:600 px-4 hover:underline">Learn more > </a>
+                <a href="https://www.apple.com/us/shop/goto/buy_iphone/iphone_12_pro" class="hover:text-blue:600 px-4 hover:underline">Buy ></a>
+            </div>
+            <a class="w-full h-full md:h-4/5" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full h-full md:w-7/12 mx-auto" src="images/iphone12pro.png" alt=""></a>
+        </div>
+        <!-- ********** -->
+        <div class="bg-black mt-4 w-full h-4/5 flex flex-col justify-center items-center">
+            <h3 class="font-semibold antialiased text-white opacity-90 text-4xl md:text-6xl mt-5 pt-5">iPad Pro</h3>
+            <h4 class="text-xl md:text-2xl py-4 text-white">Supercharged by the Apple M1 chip</h4>
+            <div class="flex w-1/2 py-2 text-md md:text-xl text-blue-500 justify-center">
+                <a href="https://www.apple.com/ipad-pro/" class="hover:text-blue-600 px-4 hover:underline">Learn more > </a>
+                <a href="https://www.apple.com/us/shop/goto/ipad_pro/select" class="hover:text-blue-600 px-4 hover:underline">Buy ></a>
+            </div>
+            <a class=" w-full h-full md:h-4/5" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full h-full md:w-7/12 mx-auto" src="images/ipadpro.png" alt=""></a>
+        </div>
+
+        <!-- ********** -->
+        <div class="mt-4 w-full h-full md:h-4/5 flex flex-col md:flex-row justify-center items-center">
+            <div class="w-full md:w-6/12 flex flex-col h-full bg-white  justify-center items-center  cursor-pointer">
+                <h3 class="font-semibold antialiased text-black opacity-90 text-4xl md:text-4xl mt-5 pt-5">iMac</h3>
+                <h4 class="text-xl md:text-xl py-2 text-black">Say hello.</h4>
+                <div class="flex w-1/2 md:w-4/12 py-1 mb-8 text-md md:text-l text-blue-500 justify-around">
+                    <a href="https://www.apple.com/imac-24/" class="hover:text-blue-600 hover:underline">Learn more > </a>
+                    <a href="https://www.apple.com/us/shop/goto/imac" class="hover:text-blue-600 hover:underline">Buy ></a>
+                </div>
+                <a class="w-full h-full md:h-90 my-4" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full md:w-10/12 mx-auto" src="images/imac.png" alt=""></a>
+            </div>
+
+            <div class="w-full md:w-6/12 h-full bg-black flex flex-col  justify-center items-center cursor-pointer">
+                <h3 class="font-semibold inline-flex antialiased text-white opacity-90 text-3xl mt-5 pt-5">
+                    <img class="w-8 h-8" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/22_Apple_logo_logos-128.png" alt="logo">
+                    WATCH</h3>
+                <span class="text-red-600 text-xs font-semibold tracking-widest">SERIES 6</span>
+                <h4 class="text-xl md:text-xl py-2 text-white">The future of health is on your wrist.</h4>
+                <div class="flex w-1/2 md:w-4/12 py-1 mb-8 text-md md:text-l text-blue-500 justify-around">
+                    <a href="https://www.apple.com/apple-watch-series-6/" class="hover:text-blue-600 hover:underline">Learn more > </a>
+                    <a href="https://www.apple.com/us/shop/goto/apple_watch" class="hover:text-blue-600 hover:underline">Buy ></a>
+                </div>
+                <a class="w-full h-full md:h-90 my-4" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full md:w-8/12 mx-auto" src="images/watch-removebg-preview.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- ********** -->
+        <div class="w-full mt-4 h-4/5 flex flex-col md:flex-row justify-center items-center">
+            <div class="w-full md:w-6/12 flex flex-col h-full bg-blue-300 bg-opacity-70  justify-center items-center  cursor-pointer">
+                <h3 class="w-10/12 md:w-8/12 text-center font-semibold antialiased text-black opacity-90 text-3xl md:text-4xl mt-5 pt-5">Buy a Mac or iPad for college. Get AirPods.</h3>
+                <div class="flex w-full my-2 md:w-4/12 py-1 mb-8 text-l text-blue-900 justify-around">
+                    <a href="https://www.apple.com/us-hed/shop/back-to-school" class="hover:text-blue-600 hover:underline">Save with education pricing > </a>
+                </div>
+                <a class="w-full h-full md:h-90 my-4" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full md:w-11/12 mx-auto" src="images/ipod.png" alt=""></a>
+            </div>
+
+            <div class="w-full md:w-6/12 h-full bg-white flex flex-col  justify-center items-center cursor-pointer">
+                <h3 class="font-semibold inline-flex antialiased text-black opacity-90 text-3xl md:text-4xl mt-5 pt-5">
+                    <img class="w-8 h-8" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-128.png" alt="logo">
+                    Fitness+</h3>
+                <h4 class="text-xl py-2 text-black">Fitness for all, powered by Apple Watch.</h4>
+                <div class="flex w-1/2 md:w-4/12 py-1 mb-8 text-md md:text-l text-blue-500 justify-around">
+                    <a href="https://www.apple.com/apple-fitness-plus/" class="hover:text-blue-600 hover:underline">Learn more > </a>
+                    <a href="https://fitness.apple.com/subscribe?itscg=10000&itsct=fit-hero-hp_tile-apl-ann-201111" class="hover:text-blue-600 hover:underline">Try it free ></a>
+                </div>
+                <a class="w-full h-full md:h-90 my-4" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full md:w-10/12 mx-auto" src="images/fitness.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- ********** -->
+        <div class="w-full mt-1 h-4/5 flex flex-col md:flex-row justify-center items-center">
+
+            <div class="w-full md:w-6/12 h-full bg-white flex flex-col  justify-center items-center cursor-pointer">
+                <h3 class="font-semibold inline-flex antialiased text-black opacity-90 text-3xl md:text-4xl">
+                    <img class="w-8 h-8" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-128.png" alt="logo">
+                    Fitness+</h3>
+                <h4 class="text-xl py-2 text-black">Fitness for all, powered by Apple Watch.</h4>
+                <div class="flex w-1/2 md:w-4/12 py-1 mb-8 text-md md:text-l text-blue-500 justify-around">
+                    <a href="https://www.apple.com/apple-card/" class="hover:text-blue-600 hover:underline">Learn more > </a>
+                    <a href="https://card.apple.com/apply/start/" class="hover:text-blue-600 hover:underline">Apply now ></a>
+                </div>
+                <a class="w-full md:w-10/12 h-full md:h-80" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full md:w-10/12 mx-auto" src="images/card.png" alt=""></a>
+            </div>
+
+            <div class="w-full md:w-6/12 flex flex-col h-full bg-white bg-opacity-70  justify-center items-center  cursor-pointer">
+                <a class="w-full h-full md:h-full my-4" href="https://www.apple.com/iphone-12-pro/"><img class="object-cover w-full md:w-full mx-auto" src="images/tv.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="w-full pt-4 flex flex-col items-center">
+            <p class="w-9/12 leading-4 text-xs text-gray-500 py-2">1. Price includes a $30 AT&T, T-Mobile, Sprint, or Verizon discount. Requires activation with carrier. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with Citizens One or Apple Card Monthly Installments and iPhone activation with AT&T, Sprint, T-Mobile, or Verizon for purchases in an Apple Store. Taxes and shipping not included. Additional Apple Card Monthly Installments and iPhone Payments terms apply. </p>
+
+            <p class="w-9/12 text-xs text-gray-500 leading-4 py-2">2. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with Citizens One or Apple Card Monthly Installments and iPhone activation with AT&T, Sprint, T-Mobile, or Verizon for purchases in an Apple Store. Taxes and shipping not included. Additional Apple Card Monthly Installments and iPhone Payments terms apply. </p>
+
+            <p  class="w-9/12 text-xs text-gray-500 leading-4 py-2">
+                3. Qualified Purchasers receive Promotion Savings when they purchase an eligible Mac or eligible iPad with eligible AirPods at a Qualifying Location. Only one Promotion Product per eligible Mac or eligible iPad per Qualified Purchaser. Offer subject to availability. While supplies last. Qualified Purchasers selecting Apple Card Monthly Installments (“ACMI”) as payment type at checkout shall receive a discount equal to the value of the eligible AirPods off the price of the eligible Mac or iPad. This will result in one ACMI installment plan over 12 months for the eligible iPad or Mac discounted by the instant credit, and a second ACMI installment plan over 6 months for the full price of the eligible AirPods. Qualified Purchasers will be charged for all items in their cart, including the eligible AirPods plus any additional Upgrade Cost. If you choose the pay-in-full or one-time-payment option for an ACMI eligible purchase instead of choosing ACMI as the payment option at checkout, that purchase will be subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in ACMI transactions and are subject to your standard purchase APR. ACMI is subject to credit approval and credit limit. Variable APRs for Apple Card other than ACMI range from 10.99% to 21.99% based on creditworthiness. Rates as of April 1, 2020. See the Apple Card Customer Agreement for more information. Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch. Available for qualifying applicants in the United States. If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about accessing this offer or applying for Apple Card. This offer cannot be combined with the Apple Employee Purchase Plan or business loyalty pricing. Availability of in-store promotion offerings may be limited by Apple Store location closures as a result of COVID-19. Additional restrictions apply. View full terms and conditions of offer  <a class="hover:underline text-gray-800" href="https://www.apple.com/us-hed/shop/back-to-school/terms-conditions" >here</a>
+            </p>
+            <p class="w-9/12 leading-4 text-xs text-gray-500 py-2">
+                4. $9.99/month after free trial. No commitment. Plan automatically renews after trial until cancelled. <br class="my-2">
+To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with iOS or iPadOS 13.2 or later. Update to the latest version of iOS or iPadOS by going to Settings > General > Software Update. Tap Download and Install. <br class="my-2">
+Available for qualifying applicants in the United States. <br class="my-2">
+Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch. <br>
+Learn more about how Apple Card applications are evaluated at <a class="hover:underline text-gray-800" href="https://support.apple.com/kb/HT209218">support.apple.com/kb/HT209218</a>. <br class="my-2">
+Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other <a class="text-gray-800 hover:underline" href="https://www.apple.com/promo/">terms</a> apply.
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
